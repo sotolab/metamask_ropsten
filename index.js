@@ -2,6 +2,15 @@ const Tx = require('ethereumjs-tx').Transaction
 const Web3 = require('web3')
 const web3 = new Web3('https://ropsten.infura.io/v3/')
 
+
+// const account = web3.eth.accounts[0];
+// console('account : ' + account);
+// web3.etth.getBalance(account, (error, balance) => {
+//    if (!error)
+//         console.log('getBalance:' + balance);
+// }
+
+
 const account1 = '' // Your account address 1
 const account2 = '' // Your account address 2
 
